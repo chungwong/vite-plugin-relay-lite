@@ -26,7 +26,7 @@ jobs:
         run: yarn install --immutable
 
       - name: Checking build
-        run: yarn build
+        run: yarn bundle
 
       - name: Execute Tests
         run: yarn test run

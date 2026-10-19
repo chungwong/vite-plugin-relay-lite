@@ -38,7 +38,7 @@
     "lib"
   ],
   "scripts": {
-    "build": "nanobundle build",
+    "bundle": "nanobundle build",
     "test": "vitest"
   },
   "peerDependencies": {
